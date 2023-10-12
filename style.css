@@ -4,4 +4,27 @@
     margin: 100px;
 }
 
+.yabai_d{
+    font-size: 2em;
+    text-align: center;
+    margin: 100px;
+}
 
+
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: #fff;
+    text-decoration: none;
+    border: #b50000;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+#showClockButtonContainer {
+    text-align: center; /* ボタンを中央に配置する場合 */
+    margin-top: 20px;   /* ボタンと他の要素の間のスペースを調整 */
+}
