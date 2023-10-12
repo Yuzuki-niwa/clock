@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>natto button</title>
+    <script>
+        function displayImage(){
+            var imageUrl = "https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG_omiYkNVym1Sd6g5T38MuQA9tQja-RkKnhZe9-P4Wh0qbOwq_pnPGYdiWKfxFsotkaVyPM2oMOzO7OqapMlEaDbRAWtbi2q97zRW_ggiAnxUWBIqK57Hw3TCwnHjV4nkUHLlAbPBp_n9MQRjHJKNuc=/CJidpqlWgAAOhxF.png?errorImage=false"
+            var imageElement = document.getElementById("image");
+
+            imageElement.src=imageUrl;
+        }
+    </script>
 </head>
 <body>
-    <h1>this is a new page, new world.</h1>
+    <button onclick="displayImage()">Natto Button</button>
+    <br>
+    <img id="image" src="" alt="nanigaderukana">
 </body>
 </html>
